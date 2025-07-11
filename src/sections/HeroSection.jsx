@@ -23,7 +23,7 @@ const HeroSection = () => {
           clipPath: "polygon(0% 0%,100% 0, 100% 100%,0% 100% )",
           ease: "circ.out",
         },
-        "-=0.5"
+        "-=0.3"
       )
       .from(
         titleSplit.chars,
@@ -39,9 +39,7 @@ const HeroSection = () => {
       scrollTrigger: {
         trigger: ".hero-container",
         start: "1% top",
-        end: "bottom top",
         scrub: true,
-        markers: true,
       },
     });
 
