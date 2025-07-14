@@ -1,12 +1,34 @@
-# React + Vite
+# ✨ GSAP Awwwards-Level Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Introduction
 
-Currently, two official plugins are available:
+Dive into creating a cutting-edge web experience designed for [Awwwards](https://www.awwwards.com/) recognition, with **GSAP (GreenSock Animation Platform)** at its core. This project demonstrates how to leverage GSAP's powerful animation capabilities to craft fluid transitions, captivating scroll effects, and dynamic UI interactions — all integrated with **React** and **Tailwind CSS** for a truly immersive and visually stunning website.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React 19**
+- 🌀 **Tailwind CSS v4**
+- 🎞️ **GSAP (GreenSock Animation Platform)**
+
+---
+
+## ✨ Features You’ll Learn
+
+- 🎢 **Parallax Like a Pro**
+- ✂️ **Master Clip-Path Magic**
+- 🎯 **Control ScrollTrigger & ScrollSmoother**
+- 📌 **Pin Elements with Style**
+- ✍️ **Reveal Text Like Awwwards Pros**
+- 📽️ **Build GSAP Timelines That Actually Feel Good**
+- 📱 **Fully Responsive and Mobile-Friendly**
+
+---
+
+## ⚡ Quick Start
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/pahadiniraj/gsap-learn.git
+

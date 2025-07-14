@@ -12,10 +12,10 @@ const MessageSection = () => {
     const secondtMsgSplit = SplitText.create(".second-message", {
       type: "words",
     });
-    // const paragraphtMsgSplit = SplitText.create(".message-content p", {
-    //   type: "words , lines",
-    //   linesClass: "paragraph-line",
-    // });
+    const paragraphtMsgSplit = SplitText.create(".message-content p", {
+      type: "words,lines",
+      linesClass: "paragraph-line",
+    });
 
     gsap.to(firstMsgSplit.words, {
       color: "#faeade",
@@ -35,9 +35,10 @@ const MessageSection = () => {
       stagger: 1,
       scrollTrigger: {
         trigger: "second-message",
-        start: "35% end",
-        end: "50% end",
+        start: "30% end",
+        end: "40% end",
         scrub: true,
+        // markers: true,
       },
     });
 
@@ -47,7 +48,6 @@ const MessageSection = () => {
         start: "top 100%", // Better trigger point
         end: "bottom 20%",
         scrub: 1, // Smooth scrub animation
-        markers: true,
       },
     });
 
@@ -62,6 +62,21 @@ const MessageSection = () => {
         ease: "circ.inOut",
       }
     );
+
+    const paragraphTl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".message-content p",
+        start: "top center",
+      },
+    });
+
+    paragraphTl.from(paragraphtMsgSplit.words, {
+      yPercent: 300,
+      rotate: 3,
+      ease: "power1.inOut",
+      duration: 1,
+      stagger: 0.01,
+    });
   });
 
   return (
