@@ -1,9 +1,5 @@
 <div >
  <br />
-  <div align="center" >
-   <a href="https://youtu.be/pqYxZ8jd768" target="_blank">
-     <img  src="public/images/Final.png" style="border-radius:10px;"  alt="Project Banner">
-   </a></div>
  <br />
  <br />
 
